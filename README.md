@@ -21,7 +21,7 @@ Statistic package: Multiple linear regression
 
 ## Results 
 ## Multiple Linear Regression Model to Predict MPG 
-    ![Multiple_Regression_MPG](Multiple_Regression_MPG.png)
+    ![](Multiple_Regression_MPG.png)
     p-value = 5.35e-11 which is < 0.05. There is a significant different in this model. The p-value for Vehicle length and Ground clearance were less than 0.05. 
 
 ## Conclusion
@@ -52,10 +52,10 @@ Statistic package: Multiple linear regression
 ## Summary Statistics on Suspension Coils
 
 ### The total summary; mean, median, variance and standard deviation of the suspension coils (PSI) are as follows:-  
-    ![summary_SusCoil](summary_SusCoil.png)
+    ![](summary_SusCoil.png)
 
 ### Lot summary to group each manufacturing lot by the mean, median, varinace, and standard deviation of the suspension coil's PSI column. 
-    ![Lot_summary_SusCoil](Lot_summary_SusCoil.png)
+    ![](Lot_summary_SusCoil.png)
 
 Based on the total summary, the suspension coil for all manufacturing lots is 62 pounds per square inch. 
 Hence the current manufacturing data meet design specification. At the individual level, 
@@ -70,9 +70,10 @@ Whereas lot 3 (170.3 PSI) exceeding the design specification and fail to meet th
 Null hypothesis: there is no statistical difference between the manufacturing lots mean and population mean of PSI.
 Alternate hypothesis: there is a statistical difference between the manufacturing lots mean and population mean of PSI.
 
-### The first t-test compares all manufacturing lots against mean PSI of the population and 
-### the other three t-tests compare each manufacturing lot against mean PSI of the population.
-    ![t-test_all_and_each_lot](t-test_all_and_each_lot.png)
+#### The first t-test compares all manufacturing lots against mean PSI of the population and 
+#### the other three t-tests compare each manufacturing lot against mean PSI of the population.
+    ![](t_test_all_lots.png)
+    ![](t-test_all_and_each_lot.png)
 
 ## Results and conclusion 
 According to the first t-test analysis, the p-value (0.06) is greater than the significance level, 
