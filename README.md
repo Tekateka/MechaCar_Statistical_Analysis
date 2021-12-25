@@ -2,7 +2,7 @@
 
 # Deliverable 1 
 ## Purpose:-
--	To perform multiple linear regression to identify which variables in the dataset predict the mpg of MechaCar prototypes.  
+-	To perform multiple linear regression and to identify which variables in the dataset predict the mpg of MechaCar prototypes.  
 
 ## Materials: 
 Dataset: MechaCar_mpg.csv
@@ -22,20 +22,18 @@ Statistic package: Multiple linear regression
 ## Results 
 ## Multiple Linear Regression Model to Predict MPG 
     ![](Multiple_Regression_MPG.png)
-    p-value = 5.35e-11 which is < 0.05. There is a significant different in this model. The p-value for Vehicle length and Ground clearance were less than 0.05. 
+    p-value = 5.35e-11 which is < 0.05. And at the same time the p-value for Vehicle length and Ground clearance is less than 0.05. 
 
 ## Conclusion
-   - Based on the results, vehicle length and ground clearance are statistically (p< 0.5) different or have a significant impact on mpg. 
+   - Based on the results, vehicle length and ground clearance shows statistically (p< 0.5) different or have a significant impact on mpg. 
      Therefore, the two variables can predict MPG. 
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-  - According to the analysis, vehicle length and ground clearance have provided a non-random amount of variance to the mpg values in the dataset. Because  
-    vehicle length and ground clearance have a significant impact on MGP since their p-values are less than 0.05 (significance level).
-    But, Vehicle weight, spoiler angle and AWD have provided a random amount of variance. 
+  - According to the analysis, vehicle length and ground clearance have provided a non-random amount of variance to the mpg values in the dataset. Because ehicle length and ground clearance have a significant impact on MGP since their p-values are less than 0.05 (significance level).
+  But, Vehicle weight, spoiler angle and AWD have provided a random amount of variance. 
      
 ### Is the slope of the linear model considered to be zero? Why or why not? 
-    - The slope of the linear model is not considered to be zero, because the over all linear model shows that the p-value (5.35e-11) is less than 0.05.
-     This shows there is relationship between x and y axis. Additionllay, the R-squared = 0.7149;  i.e
+    - The slope of the linear model is not considered to be zero, because the over all linear model shows that the p-value (5.35e-11) is less than 0.05. This shows there is relationship between x and y axis. Additionally, the R-squared = 0.7149;  i.e
      71.5% of the variability of our mpg variable is explained using this linear model. 
 
 ### Does this linear model predict mpg of MechaCar Car protypes effectively? Why or why not? 
@@ -70,8 +68,8 @@ Whereas lot 3 (170.3 PSI) exceeding the design specification and fail to meet th
 Null hypothesis: there is no statistical difference between the manufacturing lots mean and population mean of PSI.
 Alternate hypothesis: there is a statistical difference between the manufacturing lots mean and population mean of PSI.
 
-#### The first t-test compares all manufacturing lots against mean PSI of the population and 
-#### the other three t-tests compare each manufacturing lot against mean PSI of the population.
+The first t-test compares all manufacturing lots against mean PSI of the population and the other three t-tests compare 
+each manufacturing lot against mean PSI of the population.
     ![](t_test_all_lots.png)
     ![](t-test_all_and_each_lot.png)
 
@@ -89,7 +87,7 @@ there is statistical difference between the mean of Lot 3 and population mean of
 Mostly consumers would like to consider cost, city or highway fuel efficiency and horse power to purchase a car. 
 
 ### metric to test 
-cost - is a dependent variable.
+Cost of car is a dependent variable.
 To find the variable that mainly affects the cost of a car. 
 
 ### Hypothesis 
@@ -100,9 +98,9 @@ Alternate hypothesis: all or some of the variable have impact on the cost of car
 ### Statistical test 
 
 The best method to test the hypothesis is multiple linear regression model. Because we have 4 variables and the dependent variable, and 
-all independent variables have continuous data typies. 
-Additionally, this model can easly access the impact of fuel efficient and horse power on the cost of car.
+all independent variables have continuous data types. Additionally, this model can easly access the impact of fuel efficient and 
+horse power on the cost of car.
 
 ### Data  
-We need the following data to run the model:- fule efficiency both from city and highway, horse power and the cost of a car. 
-Regarding sample size, as a rules of thumb we need 10 observations per variable, with approximately 50 total observations. 
+We need the following data to run the model:- fuel efficiency both from city and highway, horse power and the cost of a car. 
+Regarding sample size, as a rule of thumb we need 10 observations per variable, with approximately 50 total observations. 
