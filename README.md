@@ -22,9 +22,9 @@ Statistic package: Multiple linear regression
 ## Results 
 ## Multiple Linear Regression Model to Predict MPG 
     ![Multiple_Regression_MPG](Multiple_Regression_MPG.png)
-    p -value = 5.35e-11 and p-value < 0.05. There is a significant different in this model. The p-value for Vehicle length and Ground clearance were less than 0.05. 
+    p-value = 5.35e-11 which is < 0.05. There is a significant different in this model. The p-value for Vehicle length and Ground clearance were less than 0.05. 
 
-## Conlusion
+## Conclusion
    - Based on the results, vehicle length and ground clearance are statistically (p< 0.5) different or have a significant impact on mpg. 
      Therefore, the two variables can predict MPG. 
 
