@@ -103,4 +103,4 @@ horse power on the cost of car.
 
 ### Data  
 We need the following data to run the model:- fuel efficiency both from city and highway, horse power and the cost of a car. 
-Regarding sample size, as a rule of thumb we need 10 observations per variable, with approximately 50 total observations. 
+Regarding sample size, as a rule of thumb we need 10 observations per variable with approximately 50 total observations. 
